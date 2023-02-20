@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="stylePortfolio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="hero">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section id="home">
+    <div class="content3">
+      <span class="title">Web Developer</span>
+      <h1>Hello, I’m <br><span>KUNAL</span> </h1>
+      <p>
+        A Web Developer is a professional who is responsible for the design and construction of websites. <br>
+        They ensure that sites meet user expectations by ensuring they look good, <br>
+        run smoothly and offer easy access points with no loading issues between pages or error messages.
+      </p>
+      <a href="resume.docx" class="btn"> Open CV </a>
+    </div>
+  </section>
+
+
+
+  <section id="about">
+    <div class="content1">
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1 class="text-center">About Me</h1>
+      <p> I am a creative designer and developer, <br>
+        who aims to work with small businesses and marginalized communities to bring their passions to life. <br>
+        I offer both design and development services of web applications or websites!<br>
+        I work on builds and maintenance for a variety of client sites for my job during the day, <br>
+        and at night you can also find me doing some freelance work on the side taking on <br>
+        my clients' sites (made in a variety of site builders/platforms), giving them a design-focused revamp, <br>
+        and adding some custom features and functionality to make them shine! <br>
+        I've always been drawn to both the creative and analytical side of development, <br>
+        so I'm so thankful to be able to do both with the foundation I built during bootcamp.
+      </p>
+      <ul>
+        <h4>
+          <li>Name: Kunal Saini</li>
+          <li>Age: 22</li>
+          <li>Occupation: Web Developer</li>
+        </h4>
+      </ul>
+    </div>
+  </section>
+
+
+  <br><br>
+  <section id="projects">
+    <br><br><br><br><br>
+    <h1 class="Headings1">Projects</h1><br><br>
+    <div class="row">
+      <div class="box">
+        <h1 class="headings">CI/CD Pipeline</h1><br>
+        CI/CD pipelines are a practice focused on improving software delivery throughout the software development life
+        cycle via automation. <br><br>
+        <b>Skills used:</b><br> Linux, AWS, Jenkins and Docker.
+        <br><br><br>
+        <img src="cicd.png" height="150" width="200" alt="cicd project">
+      </div>
+
+      <div class="box">
+        <h1 class="headings">Jarvis Assistant</h1><br>
+        An ultimate desktop assistant that makes your life easier by automating some mundane, daily tasks. It's an AI
+        without any algorithm. <br><br>
+        <p><b>Skills used:</b> Python. </p>
+        <p><b>Tool used:</b> Visual Studio Code.</p>
+        <br><br>
+        <img src="jarvis.png" height="150" width="200" alt="jarvis project">
+      </div>
+      <div class="box">
+        <h1 class="headings">Blood Donor Management System</h1><br>
+        The Blood Bank Management System (BBMS) is an application that stores, processes, retrieves, and analyzes data
+        about blood bank administration. <br><br>
+        <p><b>Skills used:</b>HTML and CSS </p>
+        <p><b>Tool used:</b> Visual Studio Code.</p>
+        <br><br>
+        <img src="html.png" height="150" width="200" alt="html css project">
+      </div>
+      <div class="box">
+        <h1 class="headings">Hand Detection</h1><br>
+        provides the palm detection of hand gestures, where the end of the upper limb is considered to be the palm point
+        based on the detection and recognition of human skeleton. <br><br>
+        <p><b>Skills used:</b> Python. </p>
+        <p><b>Tool used:</b> Visual Studio Code.</p>
+        <br><br>
+        <img src="hand.png" height="150" width="200" alt="hand detection project">
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="contact">
+    <div class="container">
+      <br><br><br><br><br><br><br><br>
+      <h1 class="contact">Contact Me</h1>
+      <br> <br>
+      <table>
+        <form action="action_page.php">
+          <tr>
+            <td><label for="fname">First Name</label></td>
+            <td><input type="text" id="fname" name="firstname" placeholder="Your name.." class="data"></td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last Name</label></td>
+            <td><input type="text" id="lname" name="lastname" placeholder="Your last name.." class="data"></td>
+          </tr>
+          <tr>
+            <td><label for="lname">Subject</label></td>
+            <td><input type="text" id="subject" name="subject" placeholder="Subject.." class="data"></td>
+          </tr>
+          <tr>
+            <td><label for="subject">Project Description </label><br></td>
+            <td><textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+                class="data"></textarea></td>
+          </tr>
+
+          <tr>
+            <td><input type="submit" value="Submit" class="btn"></td>
+          </tr>
+        </form>
+
+      </table>
+      <br><br>
+    </div>
+  </section>
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="social-wrapper">
+      <ul>
+        <li>
+          <a href="#" target="_blank">
+            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo"
+              class="twitter-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo"
+              class="instagram-icon"></a>
+        </li>
+
+        <li>
+          <a href="#" target="_blank">
+            <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo"
+              class="facebook-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/256/Google-plus-icon.png"
+              alt="Googleplus Logo" class="googleplus-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img
+              src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170"
+              alt="Youtube Logo" class="youtube-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="http://www.iconarchive.com/download/i94258/designbolts/vector-foursquare/Foursquare-2.ico"
+              alt="Foursquare Logo" class="foursquare-icon"></a>
+        </li>
+      </ul>
+    </div>
+
+
+  </footer>
+  <!-- #colophon -->
+
+</body>
+
+</html>
